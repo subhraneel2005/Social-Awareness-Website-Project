@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles1.css" />
+</head>
+
+<body>
+  <h1 id="title">Registration Form</h1>
+  <p class="description">Be the one to save our mother nature :)</p>
+  <form
+    action="https://script.google.com/macros/s/AKfycbx0x_2VXBrBYezpaKZdCd02DTUzHLQ78qn6jYfzBJ1KXiJDxCfDEzRwxCqglTR5Vdq9eQ/exec"
+    id="survey-form" method="post">
+    <fieldset>
+      <label id="name-label">Name<input name="name" required id="name" type="text"
+          placeholder="Enter Your Name"></input>
+      </label>
+
+      <br>
+      <label id="email-label">Email<input name="email" id="email" name="email" type="email" required
+          placeholder="chomugod@gmail.com"></input>
+      </label>
+      <br>
+      <label id="number-label">Age<input name="age" id="number" type="number" min="18" max="100"
+          placeholder="21"></input></label><br>
+      <label>Gender<select name="gender" id="dropdown" required>
+          <option>(select one)</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select></label>
+    </fieldset>
+    <br>
+    <fieldset>
+      <label>Donate now<input type="radio" name="donate" value="yes"></input></label>
+      <br>
+      <label>Will donate later<input type="radio" name="donate" value="no"></input></label>
+    </fieldset>
+    <br>
+    <fieldset>
+      <label>I am a student<input name="student" type="checkbox" value="student"></input></label>
+      <br>
+      <label>I am employed<input name="employed" type="checkbox" value="employed"></input></label>
+      <br>
+      <label>I am unemployed<input name="unemployed" type="checkbox" value="unemployed"></input></label>
+      <br>
+      <label>
+        <textarea name="comments">Enter your comments...</textarea>
+        <br>
+    </fieldset>
+    <br>
+    </label>
+    <label><input id="submit" type="submit"></input></label>
+  </form>
+</body>
+
+</html>

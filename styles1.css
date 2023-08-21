@@ -1,0 +1,19 @@
+.description{
+    margin: 1em auto;
+    text-align: center;
+}
+body{
+    padding: 2em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: 12pt;
+}
+h1{
+    text-align: center;
+}
+fieldset{
+    border: 1px solid rgb(255,232,57);
+    width: 400px;
+    margin:auto;
+  }

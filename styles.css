@@ -1,0 +1,185 @@
+h1{
+    width: auto;
+    text-align: center;
+   background-color: aqua;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+.img{
+    float:left;
+}
+.heading{
+    padding:2rem;
+}
+body{
+    background-color:beige;
+}
+h3{
+    text-align: center;
+}
+
+body{
+    padding: 2em;
+    font-family: sans-serif;
+}
+
+.registerLink{
+    text-align: center;
+}
+.video{
+   float:left;
+}
+.conclusion{
+    font-size: large;
+    padding: 1.5px;
+    margin-left: 10px;
+    margin-right: 10px ;
+    
+}
+.solution{
+    text-align:center;
+    border-top: 100px;
+}
+.airpollution{
+    text-align: left;
+    font-style: italic;
+}
+.solution{
+  float: left;
+  height:auto;
+  width:auto;
+  padding:25px;
+}
+
+.airpollutionimage{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+
+}
+.airh4{
+   background-color: cornflowerblue;
+}
+
+.waterimg{
+    width: 200px;
+    height: 300px;
+
+}
+.waterpollution{
+    text-align: left;
+    font-style: italic;
+}
+
+waterpollution{
+    text-align: left;
+}
+.waterh4{
+    text-align: center;
+    background-color: aqua;
+}
+
+.soilh4{
+        text-align: center;
+        background-color: darkgoldenrod;
+    }
+
+.soilpollution{
+    text-align: left;
+}
+
+.soilimg{
+    width: 350px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.noiseh4{
+    text-align: center;
+    background-color: chartreuse;
+}
+.noisepollution{
+    text-align: left;
+}
+.noiseimg{
+    width: 350px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.cover{
+    width: 800px;
+    height: 400px;
+    /*background: #000;*/
+    margin: top 50px;
+    display: flex;
+
+}
+
+.box1{
+    width: 300px;
+}
+
+
+*{
+    box-sizing: border-box;
+    background-color: beige;
+}
+.image{
+    float: left;
+    width: 25;
+    padding:72px;
+}
+.image #pic{
+    width: 100%;
+    height: 150px;
+}
+.imagegallery{
+    text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+    background-color: beige;}
+.video{
+    float: left;
+    width: 25;
+    padding:72px;
+}
+.video #vid{
+    width: 100%;
+    height: 150px;
+}
+.videogallery{
+    text-align: center;
+}
+
+.solu{
+    height:500px;
+    width: 500px;
+}
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 400px;
+}
+.text {
+    font-size: 16px;
+}
+.contact{
+    background-color: crimson;
+    color: beige;
+}
+.discord{
+    background-color: blueviolet;
+    color: beige;
+}
